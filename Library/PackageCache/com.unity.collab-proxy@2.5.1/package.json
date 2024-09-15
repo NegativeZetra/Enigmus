@@ -1,0 +1,40 @@
+{
+  "name": "com.unity.collab-proxy",
+  "displayName": "Version Control",
+  "version": "2.5.1",
+  "unity": "2020.3",
+  "unityRelease": "48f1",
+  "description": "The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
+  "keywords": [
+    "backup",
+    "cloud",
+    "collab",
+    "collaborate",
+    "collaboration",
+    "control",
+    "devops",
+    "plastic",
+    "plasticscm",
+    "source",
+    "team",
+    "teams",
+    "version",
+    "vcs"
+  ],
+  "category": "Editor",
+  "relatedPackages": {
+    "com.unity.collab-proxy.tests": "2.5.1"
+  },
+  "_upm": {
+    "changelog": "### Added\n\n- Allow deletion of non-empty branches that have not been merged anywhere\n- New setting to control if new files must be automatically added to source control\n\n### Changed\n\n- Improve the dialog to install Unity Version Control from the Editor\n\n### Fixed\n\n- Fixed 'an existing xxx operation has locked the workspace' error on finding changes operation\n- Fixed a case of a hang happening on Editor quit\n- Fixed the login that could fail for Enterprise installation\n- Fixed undo operation that didn't capture changes in packages\n- Fixed history that was not shown when there was no desktop client installed\n- Fixed unity 6 Editor going into the background after a dialog was closed\n- Fixed wrong font size when changing to changesets view\n- Fixed the \"Upgrade plan\" button in Unity plugin that used a obsolete redirection link\n- Fixed Logs that were configured too late in the initialization\n- Fixed the minimum supported version (2020.3.48f1 LTS) in the README"
+  },
+  "upmCi": {
+    "footprint": "371a6498d8df743dd57ac0822eb4d3a94da4ff02"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.5/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git",
+    "type": "git",
+    "revision": "470a7a1321fe499cf5055d6b1d64da3a08c8dcbc"
+  }
+}
